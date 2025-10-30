@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: hedera-auth-server
+    runtime: node
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 3000
+      - key: HEDERA_NETWORK
+        value: testnet
+      - key: CORS_ORIGINS
+        value: "*"
+      - key: CHALLENGE_EXPIRATION
+        value: 300
+      - key: JWT_EXPIRES_IN
+        value: 24h
+      - key: JWT_SECRET
+        generateValue: true
+        sync: false

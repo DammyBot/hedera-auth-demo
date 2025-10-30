@@ -35,7 +35,9 @@ Welcome to the Hedera Auth Server documentation! This guide helps you find the r
 
 | Document | Description | When to Read |
 |----------|-------------|--------------|
-| [**DEPLOYMENT.md**](DEPLOYMENT.md) | Production deployment guide | Going live |
+| [**RENDER_DEPLOY.md**](RENDER_DEPLOY.md) | ⚡ ONE-CLICK Render deployment | **EASIEST - Start here!** |
+| [**DEPLOYMENT.md**](DEPLOYMENT.md) | Multi-platform deployment guide | Other platforms |
+| [**render.yaml**](render.yaml) | Render configuration (auto) | Auto-configured |
 | [**Dockerfile**](Dockerfile) | Docker container configuration | Docker deployment |
 | [**docker-compose.yml**](docker-compose.yml) | Docker Compose setup | Local Docker testing |
 
@@ -73,6 +75,12 @@ Welcome to the Hedera Auth Server documentation! This guide helps you find the r
 3. Use `example-wallet-page.html` - Visual testing
 
 ### Goal: "I want to deploy to production"
+**FASTEST: Render (2 minutes!)**
+1. [`RENDER_DEPLOY.md`](RENDER_DEPLOY.md) - One-click deployment
+2. Link GitHub repo
+3. Done! Auto-configured! 🚀
+
+**Other platforms:**
 1. [`DEPLOYMENT.md`](DEPLOYMENT.md) - Choose your platform
 2. Follow platform-specific guide
 3. Configure environment variables
@@ -90,11 +98,19 @@ Welcome to the Hedera Auth Server documentation! This guide helps you find the r
 4. Test with `test-api.js`
 
 ### Goal: "I'm building for a hackathon"
-1. [`GETTING_STARTED.md`](GETTING_STARTED.md) - 5-minute setup ⏱️
-2. `example-wallet-page.html` - Quick testing 🧪
-3. [`UNREAL_INTEGRATION.md`](UNREAL_INTEGRATION.md) - Game integration 🎮
-4. [`DEPLOYMENT.md`](DEPLOYMENT.md) - Deploy in 10 minutes 🚀
+**SUPER FAST PATH (Total: ~10 minutes):**
+1. Push code to GitHub (2 min) 📤
+2. [`RENDER_DEPLOY.md`](RENDER_DEPLOY.md) - Deploy to Render (2 min) ⚡
+3. [`UNREAL_INTEGRATION.md`](UNREAL_INTEGRATION.md) - Game integration (5 min) 🎮
+4. Test with `example-wallet-page.html` (1 min) 🧪
 5. Submit your project! 🏆
+
+**Alternative (Local first):**
+1. [`GETTING_STARTED.md`](GETTING_STARTED.md) - Local setup (5 min) ⏱️
+2. Test with `example-wallet-page.html` 🧪
+3. [`RENDER_DEPLOY.md`](RENDER_DEPLOY.md) - Deploy (2 min) 🚀
+4. Integrate with Unreal 🎮
+5. Submit! 🏆
 
 ## 📁 Source Code Structure
 

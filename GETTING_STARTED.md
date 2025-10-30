@@ -4,6 +4,18 @@
 
 Welcome! This guide will get you up and running in under 10 minutes.
 
+---
+
+## ⚡ SUPER QUICK: Deploy to Render Now!
+
+**Want to skip local setup and deploy immediately?**
+
+👉 **See [`RENDER_DEPLOY.md`](RENDER_DEPLOY.md) - Just link your GitHub repo to Render and you're live in 2 minutes!**
+
+No configuration needed - everything is automatic! Perfect for hackathons. 🚀
+
+---
+
 ## 🎯 What You'll Build
 
 By following this guide, you'll have:
@@ -112,9 +124,9 @@ You should see a challenge message! 🎉
 ### For Hackathon Participants
 
 1. ✅ Server is running ← You are here!
-2. 📱 **Integrate with Unreal Engine** → See `UNREAL_INTEGRATION.md`
-3. 🔐 **Add wallet signing** → See `hashpack-integration-example.html`
-4. 🚀 **Deploy to production** → See `DEPLOYMENT.md`
+2. 🚀 **Deploy to Render (2 minutes!)** → See `RENDER_DEPLOY.md` - Just link your repo!
+3. 📱 **Integrate with Unreal Engine** → See `UNREAL_INTEGRATION.md`
+4. 🔐 **Add wallet signing** → See `hashpack-integration-example.html`
 
 ### For Developers
 
